@@ -1,19 +1,18 @@
-import styled from "styled-components";
+
 import { GlobalStyle } from "./style/globalStyles";
+import { Header } from "./components/Header/Header";
 
 function App() {
 
-  const Title = styled.h1`
-    color: orange;
-  `;
-  
   return (
     <>
+      <Header/>
       <GlobalStyle/>
-      <Title>Teste Apet</Title>
+      
+      
       
     </>
-  )
-}
+  );
+};
 
 export default App
